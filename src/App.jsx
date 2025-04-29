@@ -1,6 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./Components/HomePage";
-import { PokemonProvider } from "./Context/PokemonProvider";
 import { homePageLoader } from "./Loaders/homePageLoader";
 import ErrorPage from "./Components/ErrorPage";
 import { lazy, Suspense } from "react";
