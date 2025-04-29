@@ -3,7 +3,7 @@ import FilterSelector from "./FilterSelector";
 function PokemonFilters({ setCurrentData, pokemonData }) {
   //Input handler
   function handleInput(e) {
-    let value = e.target.value;
+    let value = e.target.value.toLowerCase();
     let newData = pokemonData.filter((data) => data.name.includes(value));
     setCurrentData(newData);
   }
