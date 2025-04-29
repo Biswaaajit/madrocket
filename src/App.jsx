@@ -29,11 +29,7 @@ const route = createBrowserRouter([
 ]);
 
 function App() {
-  return (
-    <PokemonProvider>
-      <RouterProvider router={route} />
-    </PokemonProvider>
-  );
+  return <RouterProvider router={route} />;
 }
 
 export default App;
